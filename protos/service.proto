@@ -1,0 +1,5 @@
+syntax = 'proto3';
+
+option go_package = 'priv.github.com/test/protos;protos';
+
+message A {}
