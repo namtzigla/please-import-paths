@@ -5,10 +5,18 @@
 ;
 ; Or you can uncomment the following to pin everyone to a particular version;
 ; when you change it all users will automatically get updated.
-; [please]
-; version = 14.1.1
+[please]
+version = 13.8.2
+
+[go]
+importpath = github.com/tcncloud/api
+
 [proto]
 language = go
-protocgoplugin = //third_party/go:protoc-gen-go
-[go]
-importpath = github.com/test/package
+language = ts 
+language = java
+
+ProtocGoPlugin = //third_party/go/github.com/golang:protoc-gen-go
+ProtocTool = //third_party/proto:protoc
+GoDep = //third_party/go/github.com/golang:protobuf
+GoGrpcDep = //third_party/go/google.golang.org:grpc

@@ -1,0 +1,11 @@
+github_repo(
+    name = 'pleasings',
+    repo = 'namtzigla/pleasings',
+    revision = 'master',
+)
+
+github_repo(
+    name = 'api',
+    repo = 'tcncloud/api',
+    revision = 'master',
+)
